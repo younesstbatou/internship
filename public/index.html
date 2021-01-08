@@ -8,11 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <title>Let's build my first project</title>
 
-    <style>
-         #menu-toggle:checked + #menu{
-             display: block;
-         }
-    </style>
 </head>
 <body class="antialiased bg-gray-50">
 	<header class="sticky top-0 shadow-md lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2">
@@ -34,10 +29,10 @@
                             <a href="#services" class="lg:p-4 py-3 block border-b-2 border-transparent hover:border-indigo-400">My Services</a>
                         </li>
                         <li>
-                            <a href="#" class="lg:p-4 py-3 block border-b-2 border-transparent hover:border-indigo-400">My Works</a>
+                            <a href="#myWorks" class="lg:p-4 py-3 block border-b-2 border-transparent hover:border-indigo-400">My Works</a>
                         </li>
                         <li>
-                            <a href="#" class="lg:p-4 py-3 block border-b-2 border-transparent hover:border-indigo-400">Contact Me</a>
+                            <a href="#contactMe" class="lg:p-4 py-3 block border-b-2 border-transparent hover:border-indigo-400">Contact Me</a>
                         </li>
                     </ul>
                 </nav>
@@ -61,6 +56,7 @@
 		   <img src="/build/images/hero.png">
 		</div>
     </div>
+</div>
 </div>
 <!--End Hero-->	
      
@@ -116,11 +112,93 @@
 				</div>
 			</div>
 		</div>
-	<div>
-
-  
-</div>
+   </div>
+</div> 
 <!-- End Our Features-->
 
+<!--My-works-->
+<div id="myWorks" class="py-16 px-20 bg-gray-50">
+	<div class="text-center">
+		<h1 class="text-5xl mb-10 text-indigo-500 border-b-8 lg:pb-4  inline-block">My works</h1>
+	</div>
+	<div class="lg:grid grid-cols-4 gap-3 max-w-md m-auto lg:max-w-full">
+		<div class=" mb-10 lg:mb-0">
+			<img src="/build/images/website5.png">
+		</div>
+		<div class=" mb-10 lg:mb-0">
+			<img class="mb-10 lg:mb-2" src="/build/images/website2.png">
+			<img src="/build/images/website4.png">
+		</div>
+
+		<div class=" col-span-2 ">
+			<div class="">
+				<img src="/build/images/website3.png">
+		    </div>
+	    </div>
+    </div>
+</div>   
+<!--End My-works-->
+
+<!--Contact Me-->
+<div id="contactMe" class="py-16 bg-gradient-to-r from-indigo-600 to-purple-400 ">
+	<div class="text-center">
+		<h1 class="text-5xl mb-10  text-white border-b-8 lg:pb-4  inline-block">Contact Me</h1>
+	</div>
+	<div class="lg:flex px-16 text-center lg:text-left justify-between">
+		<div class="lg:w-1/2 px-16 text-white pt-10  mb-20 lg:mb-0">
+			<div class="mb-10">
+				<span class="text-3xl font-bold">ADDRESS:</span></br>
+             98 West 21th Street, Suite 721 New York NY 10016</br>
+			</div>
+
+			<div class="mb-10">
+				<span class="text-3xl font-bold">PHONE:</span></br>
+			(+1) 234 4567 8910</br>
+			</div>
+
+			<div>
+				<span class="text-3xl font-bold">EMAIL:</span></br>
+			      youness.acdc@gmail.com</br>
+			</div>
+		</div>
+		<div class="lg:w-1/2 ">
+			 <form class="flex-col   max-w-md m-auto">
+			 	<div class="lg:flex mb-4">
+			 		<input type="" name="Full name" class="w-full mb-4 lg:mb-0 p-2 mr-4 flex-1 border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="Your name">
+			 	    <input type="" name="Email" class="w-full p-2 flex-1 border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="Your email">
+			 	</div>
+
+
+			 	 <input type="" name="subject" class="p-2 mb-4 w-full flex border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="Subject">
+
+			 	 <textarea class="h-40 max-h-96  mb-4 w-full border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="Write something"> 
+			 	 </textarea>
+
+				  <button class=" hover:text-white text-xl bg-white py-2 px-4 rounded hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 ...">
+				    Submit Your Message
+				  </button>
+
+			 </form>
+		</div>
+	</div>
+</div>
+<!--End Contact Me-->
+
+<!--Footer-->
+<div class="py-9 bg-gray-900">
+	<div class="px-24 lg:flex text-center justify-between">
+		<div class="text-white mb-4 lg:mb-0 m-auto mx-px">
+			Copyright ©2021 All rights reserved | This template is made with  by Youness
+		</div>
+		<div class="text-gray-200 text-3xl">
+			<a href="#"><i class="mr-4 fab fa-facebook-square"></i></a>
+			<a href="#"><i class="mr-4 fab fa-facebook-messenger"></i></a>
+			<a href="#"><i class="mr-4 fab fa-instagram-square"></i></a>
+			<a href="#"><i class="mr-4 fab fa-youtube-square"></i></a>
+			<a href="#"><i class="fab fa-linkedin"></i></a>
+		</div>
+	</div>
+</div>
+<!--End Footer-->
 </body>
 </html>
