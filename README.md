@@ -35,14 +35,14 @@ git clone https://github.com/youn-Git/Internship.git
 
 ###  After cloning this repo be sure to install **node** and **npm**.
 For additional help see the official node site.
-[nodejs.org](www.nodejs.org) please install the standard version.
+[nodejs.org](https://nodejs.org) please install the standard version.
 
 ```
 npm install -g
 ```
 
 
-### then cd your project folder to CMD and run npm 
+### then cd the project folder to CMD and run npm 
 
 ```
 cd /c/Users/[username]/Desktop/[folder name]/Internship
@@ -68,5 +68,5 @@ Celebrate.
 
 # License and Copyright
 
-© copyright Youness 
+© Copyright Youness 
 
