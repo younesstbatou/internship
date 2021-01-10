@@ -29,28 +29,30 @@ Flat and responsive website template, designed and coded by Youness
 
 ### first step is to clone this repo
 
-```
+`
 git clone https://github.com/youn-Git/Internship.git
-```
+`
 
 ###  After cloning this repo be sure to install **node** and **npm**.
 For additional help see the official node site.
 [nodejs.org](https://nodejs.org) please install the standard version.
 
-```
-npm install -g
-```
+`npm install -g`
+
+here is how to check version of node and npm `npm -v`, `node -v`
+
+
 
 
 ### then cd the project folder to CMD and run npm 
 
-```
+`
 cd /c/Users/[username]/Desktop/[folder name]/Internship
-```
+`
 
-```
+`
 $ npm install
-```
+`
 
 
 # Live reload
@@ -58,9 +60,9 @@ $ npm install
 
 
 
-```
+`
 live-server public
-```
+`
 
 
 Celebrate.  
