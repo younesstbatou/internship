@@ -4,6 +4,8 @@ Flat and responsive website template, designed and coded by Youness
 
 ![portfolio](https://github.com/youn-Git/files/blob/master/portfolio.jpg?raw=true)
 
+  ## Live demo [Demo](https://younesstbatou.github.io/internship/)
+
 # Folder and file structure
 
 ```bash
@@ -15,7 +17,7 @@ Flat and responsive website template, designed and coded by Youness
 ├── css/
 |   ├── tailwind.css
 │
-├── public/
+├── docs/
     |── index.html
     ├── build/
         ├── images/               * source of images
@@ -49,10 +51,10 @@ npm install
 
 # Live reload
 
-### Whenever you want to run this project simply run **live-server public**
+### Whenever you want to run this project simply run **live-server docs**
 
 ```
-live-server public
+live-server docs
 ```
 
 Celebrate.
